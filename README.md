@@ -1,56 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Shool Library
 
 > Description the project.
+In this project we implemented OOP using classes, we have Person Class then Student and Teacher classes which inherit from Person as parent class.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+Clone this repo into your locally and install the ruby software 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+You suppose to have ruby installed on your local machine to be able to run this project
 ### Setup
+Ruby
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+in command line you have to write ``` ruby name_of_file.rb ```
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Sevenpros](https://github.com/Sevenpros)
+- LinkedIn: [@Seth Bizimana](hhttps://www.linkedin.com/in/sethbizimana/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -72,4 +53,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
