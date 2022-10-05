@@ -1,6 +1,7 @@
 require './nameable'
 class Person < Nameable
   def initialize(id, age, name = 'Uknown', parent_permission: true)
+    super()
     @id = id
     @name = name
     @age = age
