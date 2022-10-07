@@ -1,7 +1,9 @@
 require './rental'
 require './books'
-class Person
+require './nameable'
+class Person < Nameable
   def initialize(id, age, name = 'Uknown', parent_permission: true)
+    super()
     @id = id
     @name = name
     @age = age
@@ -16,11 +18,14 @@ class Person
 
   def add_rental(book, date)
     Rental.new(date, book, self)
+
+  def correct_name
+    @name
   end
 
   private
 
   def of_age?
-    @age > 18
+    @age >= 18
   end
 end
